@@ -1,0 +1,33 @@
+.product-line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 8rem 6rem 2rem 6rem;
+}
+
+.display-image {
+    position: relative;
+}
+
+.book-type {
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.baner {
+    margin: 5rem 6rem 2rem 6rem;
+}
+
+.baner-image {
+    height: 60rem;
+    width: 100%;
+}

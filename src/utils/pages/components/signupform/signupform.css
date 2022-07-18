@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-main-box {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    top: 8rem;
+    background-color: #dcdcdc;
+}
+
+.signup-box {
+    width: max-content;
+    margin: 2rem 50% 2rem 40%;
+    background-color: white;
+    padding: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.signup-title {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-input {
+    margin-top: 2rem;
+}
+
+.signup-button {
+    margin: 1rem;
+}
+
+.new-account {
+    align-self: center;
+}
+
+.text-box {
+    height: 3rem;
+}

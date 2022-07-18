@@ -1,0 +1,52 @@
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.item-font {
+    font-size: 1.8rem;
+}
+
+.footer-font {
+    font-size: 1.2rem;
+}
+
+.rating-color {
+    color: #fca500;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+
+.icon-size {
+    font-size: 3rem;
+}
+
+* {
+    font-size: 62.5%;
+}
+
+@media only screen and (max-width: 930px) {
+    * {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    * {
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    * {
+        font-size: 40%;
+    }
+}

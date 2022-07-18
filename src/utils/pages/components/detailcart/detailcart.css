@@ -1,0 +1,105 @@
+.cart-container {
+    margin-top: 6rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-title {
+    margin-top: 4rem;
+}
+
+.cart-item-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.cart-product {
+    margin-top: 2rem;
+}
+
+.cart-item-align {
+    text-align: center;
+}
+
+.cart-box {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.price {
+    margin-top: 2rem;
+}
+
+.plus-minus-input {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.minus-button {
+    margin-left: 1rem;
+}
+
+.input-group-field {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 1rem;
+    height: 1rem;
+    width: 4rem;
+}
+
+.input-group-button>.circle {
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+
+hr {
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.price-detail-box {
+    min-width: 30rem;
+    margin-top: 2rem;
+}
+
+.price-breakup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.order-btn {
+    padding-left: 0px;
+}
+
+.btn-space {
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+    .cart-box {
+        display: flex;
+        gap: 4rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mantra-card-holder {
+        margin: 0 3rem;
+    }
+    .mantra-textbox-classic {
+        font-size: 2rem;
+    }
+}

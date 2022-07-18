@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product-list-head {
+    background-color: #dcdcdc;
+}
+
+.main-box {
+    display: flex;
+}
+
+.product-list-head {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+}

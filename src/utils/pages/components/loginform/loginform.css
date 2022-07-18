@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    width: max-content;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    background-color: white;
+    padding: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    padding: 1rem;
+}
+
+.login-input-box {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.text-box-email {
+    margin-left: 1rem;
+}
+
+.login-button {
+    margin: 1rem;
+}
+
+.forgot-password {
+    font-size: 2rem;
+    margin-left: 8rem;
+    cursor: pointer;
+}
+
+.new-account {
+    align-self: center;
+}
+
+.text-box {
+    height: 3rem;
+}
+
+.login-main-box {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#remember-me {
+    margin: 0.5rem;
+}

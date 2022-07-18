@@ -1,0 +1,24 @@
+.footer-card {
+    margin: 5rem 6rem 5rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-card {
+    margin-top: 2rem;
+}
+
+.best-book {
+    height: 20rem;
+}
+
+.sub-head,
+.description {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.text-box {
+    text-align: left;
+}

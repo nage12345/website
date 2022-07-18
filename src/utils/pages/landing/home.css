@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Home-head {
+    position: relative;
+    background-color: #dcdcdc;
+    margin: 0;
+    min-height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .best-book {
+        height: 25rem;
+        max-height: 60rem;
+        width: 40rem;
+        margin-right: 2rem;
+    }
+}

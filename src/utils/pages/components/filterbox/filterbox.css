@@ -1,0 +1,53 @@
+.filter-main {
+    text-align: left;
+    position: fixed;
+    left: 0;
+    top: 8rem;
+}
+
+.side-bar {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 3rem 0 4rem;
+    position: absolute;
+    min-height: 100vh;
+    width: 30rem;
+}
+
+.filter-title,
+.min-max,
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.clear-filter {
+    color: black;
+    cursor: pointer;
+}
+
+.category-head {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+}
+
+.rating-filter,
+.book-filter,
+.price-sort {
+    padding-left: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.input-box input {
+    max-width: 8rem;
+}
+
+.label-box {
+    margin-left: 0.5rem;
+}

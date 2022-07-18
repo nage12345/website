@@ -1,0 +1,22 @@
+.sign-page {
+    background-color: #dcdcdc;
+}
+
+@media only screen and (max-width: 480px) {
+    .signup-box {
+        margin: 5rem 30rem 0 5rem;
+        border-right-width: 1rem;
+    }
+    .text-box {
+        width: 20rem;
+        font-size: 2rem;
+    }
+    .signup-main-box {
+        position: relative;
+        margin: 0;
+        height: 100vh;
+        top: 8rem;
+        right: 10%;
+        background-color: #dcdcdc;
+    }
+}

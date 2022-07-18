@@ -1,0 +1,33 @@
+.product-page {
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: 35rem;
+    margin-top: 8rem;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-cover {
+    object-fit: cover;
+    height: 100%;
+}
+
+.product-page-title {
+    font-size: 2rem;
+    height: max-content;
+}
+
+.book-card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 8rem;
+}
+
+#wishlist {
+    color: red;
+}
